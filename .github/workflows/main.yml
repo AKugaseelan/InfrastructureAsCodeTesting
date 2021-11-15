@@ -27,6 +27,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run PowerShell script
-        uses: AKugaseelan/InfrastructureAsCodeTesting@84e7fed4590fc26fdd1b100795ade92a1e9f3a46
+        uses: AKugaseelan/InfrastructureAsCodeTesting@main
         with:
           script: .\BuildScripts\HalloWorld.ps1
