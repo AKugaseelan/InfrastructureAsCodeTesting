@@ -27,4 +27,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run PowerShell script
-        run: pwsh -command ".\$GITHUB_WORKSPACE\BuildScripts\HalloWorld.ps1"
+        run: powershell.exe -command ".\$GITHUB_WORKSPACE\BuildScripts\HalloWorld.ps1"
