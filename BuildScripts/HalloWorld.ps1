@@ -1,2 +1,2 @@
-// this is a test comment
+## this is a test comment
 Write-Output "Hello World"
