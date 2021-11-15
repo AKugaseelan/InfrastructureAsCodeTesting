@@ -27,6 +27,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run PowerShell script
-        uses: actions/checkout@v2
-        with:
-          script: .\BuildScripts\HalloWorld.ps1
+        run: pwsh -command ".\$GITHUB_WORKSPACE\BuildScripts\HalloWorld.ps1"
